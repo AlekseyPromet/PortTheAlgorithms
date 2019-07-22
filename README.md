@@ -1,4 +1,4 @@
 # Algorithms
 
-A tentative to rewrite the https://github.com/keon/algorithms
-in go as a way to learn go lang.
+Porting https://github.com/TheAlgorithms/C
+to go lang for learning purposes
