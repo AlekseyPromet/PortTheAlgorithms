@@ -14,7 +14,7 @@ func main() {
 		return
 	}
 
-	arr, err := stdinReadArrayElements(arraySize)
+	arr, err := arrayElements(arraySize)
 
 	if err != nil {
 		fmt.Println("Error while reading elements of the array")
@@ -35,7 +35,7 @@ func stdinReadArraysize() (arraySize int, err error) {
 	return arraySize, err
 }
 
-func stdinReadArrayElements(size int)(array []int, err error ) {
+func arrayElements(size int)(array []int, err error ) {
 	var temp int
 
 	fmt.Printf("Enter the elements of the array\n")

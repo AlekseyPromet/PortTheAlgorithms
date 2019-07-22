@@ -25,14 +25,14 @@ func BubbleSort(arr []int, size int) []int {
 	for i := 0; i < size-1; i++ {
 		for j = 0; j < size-1; j++ {
 			if arr[j] > arr[j+1] {
-				swap(&arr[j], &arr[j+1])
+				swap2(&arr[j], &arr[j+1])
 			}
 		}
 	}
 	return arr
 }
 
-func swap(p_first, p_second *int) {
+func swap2(p_first, p_second *int) {
 	temp := *p_first
 	*p_first = *p_second
 	*p_second = temp
